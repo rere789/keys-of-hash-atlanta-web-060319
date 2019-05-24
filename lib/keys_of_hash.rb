@@ -3,7 +3,7 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     # code goes here
-    return arguments
     binding.pry 
+    return arguments
   end 
 end
