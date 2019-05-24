@@ -5,6 +5,6 @@ class Hash
     # code goes here
     hash = *arguments
     return hash 
-      return hash.keys if hash == "Panama"
+      return hash.keys if hash.values == "Panama"
   end 
 end
