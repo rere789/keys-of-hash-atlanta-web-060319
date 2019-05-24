@@ -7,7 +7,7 @@ class Hash
     return hash 
     
     hash.each do |key, value|
-      return value if key == "Panama"
+      return key if value == "Panama"
       
     end 
   end 
