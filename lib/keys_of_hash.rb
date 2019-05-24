@@ -10,5 +10,5 @@ class Hash
         end 
       end 
   end 
-  animals
+  return animals
 end
