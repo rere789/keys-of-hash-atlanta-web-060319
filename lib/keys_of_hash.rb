@@ -7,5 +7,6 @@ class Hash
     # return hash 
     hash.each do |key, value|
       return hash.keys if hash == "Panama"
+    end 
   end 
 end
