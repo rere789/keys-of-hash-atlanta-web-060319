@@ -5,6 +5,7 @@ class Hash
     # code goes here
     animals = []
       self.each do |animals ,home|
-        if 
+        if arguments.include?(animals)
+          
   end 
 end
