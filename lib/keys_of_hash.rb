@@ -6,7 +6,7 @@ class Hash
     animals = []
       self.each do |animal ,home|
         if arguments.include?(home)
-          animals << animals
+          animals << animal
         end 
       end 
   end 
