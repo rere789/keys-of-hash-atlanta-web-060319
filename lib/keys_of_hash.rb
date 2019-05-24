@@ -1,5 +1,14 @@
+require "pry"
+
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     # code goes here
-  end
+    animals = []
+      self.each do |animal ,home|
+        if arguments.include?(home)
+          animals << animal
+        end 
+      end 
+      return animals 
+  end 
 end
