@@ -7,6 +7,7 @@ class Hash
     hash = *arguments
     hash.each do |key, value|
       return value if key == "Panama"
+      binding.pry 
     end 
   end 
 end
