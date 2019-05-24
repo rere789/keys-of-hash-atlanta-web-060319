@@ -9,6 +9,6 @@ class Hash
           animals << animal
         end 
       end 
+      return animals 
   end 
-  return animals
 end
