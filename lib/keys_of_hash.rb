@@ -7,5 +7,6 @@ class Hash
     *arguments.each do |key, value|
       return value if key == "Panama"
     end 
+  end 
 end
 end 
